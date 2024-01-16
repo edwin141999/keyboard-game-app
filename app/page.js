@@ -1,7 +1,10 @@
+import Keyboard from "./keyboard/keyboard";
+
 export default function Home() {
   return (
-    <div>
-      Hola mundo
-    </div>
+    <>
+      <h2>Keyboard Game</h2>
+      <Keyboard />
+    </>
   )
 }
